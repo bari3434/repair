@@ -1,0 +1,167 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(home.PNG);
+    height: 100vh; /*Растягивается на весь экран вертикально*/
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover; /*Растягивается на весь экран равномерно горизонтально*/
+
+}
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(90deg, #FFFFFF 20%, rgba(255, 255, 255, 0) 86.67%);
+}
+header{
+    position: relative;
+}
+.container{
+    margin: 0px 100px;
+}
+.header-line{
+    padding-top: 40px;
+    color: rgba(89, 63, 13, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+}
+
+.communication{
+    display: flex;
+    align-items: center;
+}
+
+.connection{
+    display: flex;
+    align-items: center;
+    margin-right: 125px;
+}
+.connection:last-child{
+    margin-right: 0px;
+}
+.communication__img{
+    display: flex;
+    align-items: center;
+}
+
+.connect{
+    display: block;
+    text-align: right;
+}
+
+.connection__time{
+    display: flex;
+    align-items: center;
+}
+
+.logo__img{
+    margin-right: 15px;
+}
+
+.communication__text{
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.images{
+    margin-right: 10px;
+}
+
+.image:last-child{
+    margin-right: 0px;
+}
+
+.connect{
+    margin-right: 20px;
+}
+
+.connection__time__img{
+    margin-right: 8px;
+}
+
+.image{
+    width: 10px;
+    height: 10px;
+}
+.connection__phone{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.connection__time__text{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.logo__text{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.btn{
+    color: rgba(89, 63, 13, 1);
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+}
+
+.title{
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+main{
+    position: relative;
+    color: rgba(89, 63, 13, 1);
+    margin-bottom: 40px;
+}
+
+span{
+    color: rgba(255, 199, 113, 1);
+}
+
+.subtitle{
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.price-button{
+    margin-top: 40px;
+}
+.pr{
+    font-weight: 700;
+    font-size: 12px;
+    padding: 30px 40px;
+}
+
+.title-2{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFC858 100%, #FFC858 100%);
+    width: 540px;
+    height: 100px;
+    border-radius: 13px;
+    margin-top: 450px;
+
+
+}
+.main-title{
+    display: flex;
+    justify-content: space-between;
+}
